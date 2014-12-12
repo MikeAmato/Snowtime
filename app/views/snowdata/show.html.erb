@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Snowfall:</strong>
+  <%= @snowdatum.snowfall %>
+</p>
+
+<p>
+  <strong>Snowdepth:</strong>
+  <%= @snowdatum.snowdepth %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @snowdatum.location %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @snowdatum.zipcode %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @snowdatum.date %>
+</p>
+
+<%= link_to 'Edit', edit_snowdatum_path(@snowdatum) %> |
+<%= link_to 'Back', snowdata_path %>

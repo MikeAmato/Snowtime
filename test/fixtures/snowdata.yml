@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  snowfall: 1
+  snowdepth: 1
+  location: MyString
+  zipcode: 1
+  date: 2014-12-12 11:27:23
+
+two:
+  snowfall: 1
+  snowdepth: 1
+  location: MyString
+  zipcode: 1
+  date: 2014-12-12 11:27:23

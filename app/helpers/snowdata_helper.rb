@@ -1,0 +1,2 @@
+module SnowdataHelper
+end
