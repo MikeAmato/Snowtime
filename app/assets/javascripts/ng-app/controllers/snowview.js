@@ -8,18 +8,17 @@ angular.module('AngularRails')
                   type: 'line'
               },
               title: {
-                  text: 'Monthly Average Temperature'
+                  text: 'Daily snowfall'
               },
               subtitle: {
-                  text: 'Source: WorldClimate.com'
+                  text: 'WeatherSource'
               },
               xAxis: {
-                  categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 
-                  'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                  categories: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
               },
               yAxis: {
                   title: {
-                      text: 'Temperature (°C)'
+                      text: 'Snowfall'
                   }
               },
               plotOptions: {
@@ -31,11 +30,11 @@ angular.module('AngularRails')
                   }
               },
               series: [{
-                  name: 'Tokyo',
-                  data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+                  name: 'Jackson Hole, Wyoming',
+                  data: [3.0, 4.0, 2.0, 1.5, 0.0, 0.0, .5]
               }, {
-                  name: 'London',
-                  data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+                  name: 'Aspen, Colorado',
+                  data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0]
               }]
           });
       });
