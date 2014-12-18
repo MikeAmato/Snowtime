@@ -18,7 +18,13 @@ angular
             .state('snowview', {
                 url: '/snowview',
                 templateUrl: 'snowview.html',
-                controller: 'HomeCtrl',
+                controller: 'snowViewCtrl'
+            })
+
+            .state('storedview', {
+                url: '/storedview',
+                templateUrl: 'storedview.html',
+                controller: 'storedViewCtrl'
             })
 
         $urlRouterProvider.otherwise('/');
