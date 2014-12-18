@@ -5,7 +5,7 @@ class Snowdatum < ActiveRecord::Base
 
 
     #to call the first api to get the snow fall data
-  @response = HTTParty.get('http://www.ncdc.noaa.gov/cdo-web/api/v2/{endpoint}')
+  #@response = HTTParty.get('http://www.ncdc.noaa.gov/cdo-web/api/v2/{endpoint}')
 
 
     #to call the second api to get the snow depth data
