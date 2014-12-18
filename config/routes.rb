@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  resources :snowdata
-
-  resources :sessions
-
-  resources :users
 
   root 'application#index'
 

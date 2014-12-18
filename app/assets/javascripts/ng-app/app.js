@@ -16,12 +16,11 @@ angular
             })
 
             .state('snowview', {
-                abstract: true,
                 url: '/snowview',
-                templateUrl: 'snowview/side_bar.html',
-                controller: 'SideBarCtrl',
+                templateUrl: 'snowview.html',
+                controller: 'HomeCtrl',
             })
 
         $urlRouterProvider.otherwise('/');
-        //$locationProvider.html5Mode(true);
+        $locationProvider.html5Mode(true);
     }]);
