@@ -25,7 +25,7 @@ angular
                 url: '/storedview',
                 templateUrl: 'storedview.html',
                 controller: 'storedViewCtrl'
-            })
+            });
 
         $urlRouterProvider.otherwise('/');
         //$locationProvider.html5Mode(true);
