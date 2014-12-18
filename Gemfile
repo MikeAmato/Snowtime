@@ -6,7 +6,7 @@ gem 'rails', '4.2.0.rc2'
 
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0'
+gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -28,7 +28,11 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'bower-rails'
 
+gem 'httparty'
+
 gem 'angular-rails-templates'
+
+gem 'json'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -38,6 +42,8 @@ gem 'angular-rails-templates'
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'debugger'
+
+  gem 'spring'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'

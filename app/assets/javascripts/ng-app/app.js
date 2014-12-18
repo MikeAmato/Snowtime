@@ -1,12 +1,27 @@
 angular
     .module('AngularRails', [
-        'ngRoute',
+        'ngAnimate',
+        'ui.router',
+        'ui.bootstrap',
+        'ct.ui.router.extras',
         'templates'
-    ]).config([ '$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
-        $routeProvider
-            .when('/', {
+    ]).config([ '$stateProvider', '$urlRouterProvider', '$locationProvider', 
+        function ($stateProvider, $urlRouterProvider, $locationProvider) {
+        
+        $stateProvider
+            .state('home', {
+                url: '/',
                 templateUrl: 'home.html',
                 controller: 'HomeCtrl'
-            });
-        $locationProvider.html5Mode(true);
+            })
+
+            .state('snowview', {
+                abstract: true,
+                url: '/snowview',
+                templateUrl: 'snowview/side_bar.html',
+                controller: 'SideBarCtrl',
+            })
+
+        $urlRouterProvider.otherwise('/');
+        //$locationProvider.html5Mode(true);
     }]);
