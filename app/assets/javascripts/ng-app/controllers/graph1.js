@@ -1,7 +1,7 @@
 angular.module('AngularRails')
     .controller('graph1Ctrl', [ '$scope', '$http', function ($scope, $http) {
 
-      $scope.snowdatum = [];
+      $scope.snowdatum = nil;
 
       $http.get('/snowdata/1.json').success(function(data) {
         $scope.snowdatum = data;
