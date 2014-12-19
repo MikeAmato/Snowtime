@@ -18,36 +18,35 @@ angular
             .state('snowview', {
                 abstract: true,
                 url: '/snowview',
-                templateUrl: 'snowview.html',
-                controller: 'snowViewCtrl'
+                templateUrl: 'snowview/layout.html'
             })
 
             .state('snowview.snowview1', {
-                url: '',
+                url: '/Jackson_Hole',
                 templateUrl: 'graph1.html',
                 controller: 'graph1Ctrl'
             })
 
             .state('snowview.snowview2', {
-                url: '',
+                url: '/Aspen_Colorado',
                 templateUrl: 'graph2.html',
                 controller: 'graph2Ctrl'
             })
 
             .state('snowview.snowview3', {
-                url: '',
+                url: '/Snow_bird_Utah',
                 templateUrl: 'graph3.html',
                 controller: 'graph3Ctrl'
             })
 
             .state('snowview.snowview4', {
-                url: '',
+                url: '/Alta_Utah',
                 templateUrl: 'graph4.html',
                 controller: 'graph4Ctrl'
             })
 
             .state('snowview.snowview5', {
-                url: '',
+                url: '/Vail_Colorado',
                 templateUrl: 'graph5.html',
                 controller: 'graph5Ctrl'
             })
