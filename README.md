@@ -1,4 +1,4 @@
-#General Assembly | WDI: Project 2 
+#General Assembly | WDI: Project 3 
 Developed by Michael Amato
 ##Overview
 ---
