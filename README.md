@@ -54,7 +54,9 @@ and post to my facebook or twitter and link to the search I did.</br>
 ##Diagrams
 ---
 Below are the **wireframes** for snowtime: <br />
+[Moqups](https://moqups.com/#!/edit/blackmist/bkgPv25O)
 
 ---
 
 Below is the **ERD** for snowtime: <br />
+[imgur](http://imgur.com/tVUs4D0)
