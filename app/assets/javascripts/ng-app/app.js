@@ -16,7 +16,6 @@ angular
             })
 
             .state('snowview', {
-                abstract: true,
                 url: '/snowview',
                 templateUrl: 'snowview/layout.html'
             })
