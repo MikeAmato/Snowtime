@@ -1,7 +1,7 @@
 class CreateSnowdata < ActiveRecord::Migration
   def change
     create_table :snowdata do |t|
-      t.integer :snowfall
+      t.integer :snowfall, array: true, default: []
       t.integer :snowdepth
       t.string :location
       t.integer :zipcode
