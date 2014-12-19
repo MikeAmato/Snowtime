@@ -1,5 +1,5 @@
 angular.module('AngularRails')
-    .controller('snowViewCtrl', [ '$scope', function ($scope) {
+    .controller('graph1Ctrl', [ '$scope', function ($scope) {
 
       $(function () {
 
@@ -8,7 +8,7 @@ angular.module('AngularRails')
                   type: 'line'
               },
               title: {
-                  text: 'Daily snowfall'
+                  text: 'Daily Snowfall Last Year'
               },
               subtitle: {
                   text: 'WeatherSource'
@@ -32,9 +32,6 @@ angular.module('AngularRails')
               series: [{
                   name: 'Jackson Hole, Wyoming',
                   data: [3.0, 4.0, 2.0, 1.5, 0.0, 0.0, .5]
-              }, {
-                  name: 'Aspen, Colorado',
-                  data: [4.0, 3.5, .6, .4, 3.0, 0.0, 0.0]
               }]
           });
       });
