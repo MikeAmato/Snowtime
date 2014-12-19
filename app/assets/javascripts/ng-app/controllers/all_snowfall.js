@@ -1,9 +1,8 @@
 angular.module('AngularRails')
-    .controller('allSnowfallCtrl', [ '$scope', function ($scope) {
+    .controller('allSnowfallCtrl', ['$scope', function ($scope) {
+      //Displays the highchart graph with the weather data
 
-      $(function () {
-
-          $('#container').highcharts({
+      $scope.chartConfig = {
               chart: {
                   type: 'line'
               },
@@ -49,7 +48,8 @@ angular.module('AngularRails')
                   name: 'Vail, Colorado',
                   data: [5.0, 4.5, 3.0, 2.5, 3.0, 0.0, 0.0]
               }]
-          });
-      });
+          };
+
+          $('#container').highcharts($scope.chartConfig);
 
     }]);

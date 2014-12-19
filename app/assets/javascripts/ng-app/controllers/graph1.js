@@ -1,12 +1,12 @@
 angular.module('AngularRails')
     .controller('graph1Ctrl', [ '$scope', '$http', function ($scope, $http) {
-
+      //will be used to store data passed for the database
       $scope.snowdatum = []; //nil
-
+      //Calls the database to get the requested data
       $http.get('/snowdata/1.json').success(function(data) {
         $scope.snowdatum = data;
       });
-
+      //Displays the highchart graph with the weather data
       $(function () {
 
           $('#container').highcharts({

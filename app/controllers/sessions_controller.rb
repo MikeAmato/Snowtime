@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
 
-
+  #Creates a session for a user
   def create
     user = User.find_by(email: params[:session][:email].downcase)
     if user && user.authenticate(params[:session][:password])
@@ -11,12 +11,13 @@ class SessionsController < ApplicationController
     end
   end
 
+  #Ends the session for a user
   def destroy
     sign_out
     redirect_to root_path
   end
   
-   private
+  private
     # Use callbacks to share common setup or constraints between actions.
     def set_session
       @session = Session.find(params[:id])

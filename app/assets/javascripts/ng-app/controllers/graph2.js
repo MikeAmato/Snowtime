@@ -1,6 +1,6 @@
 angular.module('AngularRails')
     .controller('graph2Ctrl', [ '$scope', function ($scope) {
-
+      //Displays the highchart graph with the weather data
       $(function () {
 
           $('#container').highcharts({

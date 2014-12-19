@@ -1,28 +1,5 @@
-
+<!-- Currently unused page for testing graphs -->
   <h1><big><big>Snow Fall</big></big></h1>
-
-  <div ng-controller="snowViewCtrl">
-    <button ng-click="selectedGraph()"></button>
-  </div>
-
-
-  <div ng-switch="selectedGraph">
-    <div ng-switch-when="graph1" ng-controller="graph1Ctrl">
-      <button ng-click="">Jackson Hole, Wyoming</button>
-    </div>
-    <div ng-switch-when="graph2" ng-controller="graph2Ctrl">
-      <button ng-click="">Aspen, Colorado</button>
-    </div>
-    <div ng-switch-when="graph3" ng-controller="graph3Ctrl">
-      <button ng-click="">Snowbird, Utah</button>
-    </div>
-    <div ng-switch-when="graph4" ng-controller="graph4Ctrl">
-      <button ng-click="">Alta, Utah</button>
-    </div>
-    <div ng-switch-when="graph5" ng-controller="graph5Ctrl">
-      <button ng-click="">Vail, Colorado</button>
-    </div>
-  </div>
   
   <div ng-controller="snowViewCtrl" id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
