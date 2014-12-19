@@ -10,7 +10,7 @@ of snow weather in the past.
 <br />
 ##Links
 ---
-*Try Snowtime yourself and learn which ski resorts were rolling in 
+* Try Snowtime yourself and learn which ski resorts were rolling in 
 the snow here on [Heroku](https://snowtime.herokuapp.com/)
 * Snowtime [trello](https://trello.com/b/lb91bEfG/snowtime)
 * Snowtime [Github](https://github.com/MikeAmato/Snowtime) 
