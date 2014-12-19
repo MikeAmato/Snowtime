@@ -18,7 +18,7 @@ angular.module('AngularRails')
               },
               yAxis: {
                   title: {
-                      text: 'Snowfall'
+                      text: 'Snowfall(inches)'
                   }
               },
               plotOptions: {
