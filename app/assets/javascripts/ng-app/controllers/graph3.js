@@ -8,7 +8,7 @@ angular.module('AngularRails')
                   type: 'line'
               },
               title: {
-                  text: 'Daily Snowfall Last Year'
+                  text: 'Daily snowfall Dec 14 - Dec 20, 2013'
               },
               subtitle: {
                   text: 'WeatherSource'
