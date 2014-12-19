@@ -19,7 +19,7 @@ the snow here on [Heroku](https://snowtime.herokuapp.com/)
 ---
 * Back end design and development using [Ruby 2.1.2](https://www.ruby-lang.org/en/), [Rails 4.1.6](http://weblog.rubyonrails.org/), and [Postgresql Database](http://www.postgresql.org/)
 * [WeatherSource API](https://developer.weathersource.com/) and [HTTParty](https://github.com/jnunemaker/httparty)
-* Testing done in AngularJS using 
+* Testing done in AngularJS using [Jasmine](http://jasmine.github.io/)
 * Front-end design and development using [Twitter Bootstrap](http://getbootstrap.com/) 
 
 ##User Story Examples
