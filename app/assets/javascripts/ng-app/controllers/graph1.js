@@ -1,13 +1,13 @@
 angular.module('AngularRails')
     .controller('graph1Ctrl', [ '$scope', '$http', function ($scope, $http) {
 
-      $scope.snowdatum = nil;
+      $scope.snowdatum = []; //nil
 
       $http.get('/snowdata/1.json').success(function(data) {
         $scope.snowdatum = data;
       });
 
-      $(function (snowdatum) {
+      $(function () {
 
           $('#container').highcharts({
               chart: {
@@ -36,8 +36,8 @@ angular.module('AngularRails')
                   }
               },
               series: [{
-                  name: snowdatum[0]['location'],
-                  data: snowdatum[0]['snowfall']
+                  name: 'Jackson Hole, Wyoming',
+                  data: [3.0, 1.5, 2.0, 0.5, 4.0, 1.0, 0.0]
               }]
           });
       });
