@@ -36,8 +36,8 @@ angular.module('AngularRails')
                   }
               },
               series: [{
-                  name: snowdatum.location,
-                  data: snowdatum.snowfall
+                  name: snowdatum[0].location,
+                  data: snowdatum[0].snowfall
               }]
           });
       });
