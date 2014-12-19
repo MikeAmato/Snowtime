@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :snowdata
+
   root 'application#index'
 
   get '*path.html' => 'application#index', :layout => 0

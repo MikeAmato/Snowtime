@@ -6,6 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+    Snowdatum.all.destroy
+
     snowdata = Snowdatum.create([{
                   location: 'Jackson Hole, Wyoming',
                   snowfall: [3.0, 4.0, 2.0, 1.5, 0.0, 0.0, 0.5]
@@ -26,5 +28,3 @@
                   location: 'Vail, Colorado',
                   snowfall: [5.0, 4.5, 3.0, 2.5, 3.0, 0.0, 0.0]
               }])
-
-             
