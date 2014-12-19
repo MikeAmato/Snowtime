@@ -1,6 +1,10 @@
 angular.module('AngularRails')
     .controller('snowViewCtrl', [ '$scope', function ($scope) {
 
+      $scope.selectedGraph = function() {
+        
+      }
+
       $(function () {
 
           $('#container').highcharts({
