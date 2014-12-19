@@ -50,6 +50,12 @@ angular
                 controller: 'graph5Ctrl'
             })
 
+            .state('snowview.snowview6', {
+                url: '/All_Mountains',
+                templateUrl: 'snowview/all_snowfall.html',
+                controller: 'allSnowfallCtrl'
+            })
+
             .state('storedview', {
                 url: '/storedview',
                 templateUrl: 'storedview.html',
