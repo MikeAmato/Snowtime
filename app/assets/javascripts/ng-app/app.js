@@ -22,31 +22,31 @@ angular
 
             .state('snowview.snowview1', {
                 url: '/Jackson_Hole',
-                templateUrl: 'graph1.html',
+                templateUrl: 'snowview/graph1.html',
                 controller: 'graph1Ctrl'
             })
 
             .state('snowview.snowview2', {
                 url: '/Aspen_Colorado',
-                templateUrl: 'graph2.html',
+                templateUrl: 'snowview/graph2.html',
                 controller: 'graph2Ctrl'
             })
 
             .state('snowview.snowview3', {
                 url: '/Snow_bird_Utah',
-                templateUrl: 'graph3.html',
+                templateUrl: 'snowview/graph3.html',
                 controller: 'graph3Ctrl'
             })
 
             .state('snowview.snowview4', {
                 url: '/Alta_Utah',
-                templateUrl: 'graph4.html',
+                templateUrl: 'snowview/graph4.html',
                 controller: 'graph4Ctrl'
             })
 
             .state('snowview.snowview5', {
                 url: '/Vail_Colorado',
-                templateUrl: 'graph5.html',
+                templateUrl: 'snowview/graph5.html',
                 controller: 'graph5Ctrl'
             })
 
