@@ -6,7 +6,8 @@ Developed by Michael Amato
 Is for the avid ski/snowboarder that want to know more about 
 the last couple of seasons for the mountain they are looking to visit. 
 Unlike a weather station user's will be able to easily look at a week
-of snow weather in the past. 
+of snow weather in the past. This website is going to be upgraded and made fully funtional on the web with 
+a full compliment of weather station data.
 <br />
 ##Links
 ---
